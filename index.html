@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Attractive fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Dancing+Script:wght@500;600;700&family=Fredoka:wght@400;500;600&family=Pacifico&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<!-- =====================================================
+     FIREWORK / CRACKER CONTAINER
+===================================================== -->
+
+<div id="fireworks"></div>
+
+
+<!-- =====================================================
+     LOGIN SCREEN
+===================================================== -->
+
+<section id="loginScreen" class="screen login-screen">
+
+    <div class="night-glow"></div>
+
+    <!-- Teddy holding the interface -->
+
+    <div class="login-teddy">
+
+        <div class="teddy-ear left-ear"></div>
+        <div class="teddy-ear right-ear"></div>
+
+        <div class="teddy-head">
+
+            <div class="teddy-eye left-eye"></div>
+            <div class="teddy-eye right-eye"></div>
+
+            <div class="teddy-muzzle">
+                <div class="teddy-nose"></div>
+                <div class="teddy-mouth"></div>
+            </div>
+
+        </div>
+
+        <div class="teddy-body">
+
+            <div class="teddy-arm left-arm"></div>
+            <div class="teddy-arm right-arm"></div>
+
+            <!-- Login card being held -->
+
+            <div class="login-card">
+
+                <div class="small-heart">♥</div>
+
+                <h1>Welcome</h1>
+
+                <p class="login-subtitle">
+                    A little birthday surprise awaits for you MOINA...
+                </p>
+
+                <form id="loginForm">
+
+                    <div class="input-box">
+                        <label>Username</label>
+
+                        <input
+                            type="text"
+                            id="username"
+                            autocomplete="off"
+                            placeholder="Enter username"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="input-box">
+                        <label>Password</label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter password"
+                            required
+                        >
+                    </div>
+
+
+                    <button type="submit" class="enter-btn">
+                        Enter ✨
+                    </button>
+
+                </form>
+
+                <p id="loginError"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MAIN BIRTHDAY PAGE
+===================================================== -->
+
+<section id="birthdayPage" class="screen birthday-page hidden">
+
+    <!-- Moon -->
+
+    <div class="moon"></div>
+
+
+    <!-- Stars -->
+
+    <div class="stars">
+        <span>✦</span>
+        <span>✧</span>
+        <span>⋆</span>
+        <span>✦</span>
+        <span>·</span>
+        <span>✧</span>
+        <span>⋆</span>
+        <span>✦</span>
+        <span>·</span>
+        <span>✧</span>
+    </div>
+
+
+    <!-- =================================================
+         BALLOONS
+    ================================================== -->
+
+    <div class="balloons">
+
+        <div class="balloon balloon1">
+            <span></span>
+        </div>
+
+        <div class="balloon balloon2">
+            <span></span>
+        </div>
+
+        <div class="balloon balloon3">
+            <span></span>
+        </div>
+
+        <div class="balloon balloon4">
+            <span></span>
+        </div>
+
+        <div class="balloon balloon5">
+            <span></span>
+        </div>
+        
+
+    </div>
+
+
+    <!-- =================================================
+         NATURAL FLYING BIRDS
+    ================================================== -->
+
+    <div class="birds">
+
+        <div class="bird bird1">
+            <div class="bird-body"></div>
+            <div class="bird-wing wing-left"></div>
+            <div class="bird-wing wing-right"></div>
+        </div>
+
+        <div class="bird bird2">
+            <div class="bird-body"></div>
+            <div class="bird-wing wing-left"></div>
+            <div class="bird-wing wing-right"></div>
+        </div>
+
+        <div class="bird bird3">
+            <div class="bird-body"></div>
+            <div class="bird-wing wing-left"></div>
+            <div class="bird-wing wing-right"></div>
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         TREES
+    ================================================== -->
+
+    <div class="tree tree-left">
+
+        <div class="tree-trunk"></div>
+
+        <div class="branch branch-a"></div>
+        <div class="branch branch-b"></div>
+        <div class="branch branch-c"></div>
+
+        <div class="tree-leaves leaf-a"></div>
+        <div class="tree-leaves leaf-b"></div>
+        <div class="tree-leaves leaf-c"></div>
+        <div class="tree-leaves leaf-d"></div>
+
+    </div>
+
+
+    <div class="tree tree-right">
+
+        <div class="tree-trunk"></div>
+
+        <div class="branch branch-a"></div>
+        <div class="branch branch-b"></div>
+        <div class="branch branch-c"></div>
+
+        <div class="tree-leaves leaf-a"></div>
+        <div class="tree-leaves leaf-b"></div>
+        <div class="tree-leaves leaf-c"></div>
+        <div class="tree-leaves leaf-d"></div>
+
+    </div>
+
+
+    <!-- =================================================
+         GRASS
+    ================================================== -->
+
+    <div class="grass grass-left">
+        🌿 🌱 🌿 🌱 🌿  🌱 
+    </div>
+
+    <div class="grass grass-right">
+        🌿 🌱 🌿 🌱 🌿 🌱
+    </div>
+
+
+    <!-- =================================================
+         FLOWERS
+    ================================================== -->
+
+    <div class="flowers flowers-left">
+        🌷 🌼 🌸
+    </div>
+
+    <div class="flowers flowers-right">
+        🌸 🌼 🌷
+    </div>
+
+
+    <!-- =================================================
+         BIRTHDAY CONTENT
+    ================================================== -->
+
+    <div class="birthday-content">
+
+        <p class="little-text">
+            A little something made with love for you...
+        </p>
+
+        <h1 class="birthday-title">
+            Happy Birthday
+        </h1>
+
+        <div class="birthday-name" style="color: #ecd6a3;font-family: 'Dancing Script', cursive;">
+    " মইনা"
+</div>
+
+        <p class="birthday-message"
+   style="color: #e8759f;
+          font-family: 'Great Vibes', cursive;
+          font-size: 28px;
+          font-style: italic;
+          text-align: center;">
+    ❤️ May your special day be filled with happiness,
+    laughter and beautiful memories ❤️
+</p>
+
+    </div>
+
+
+    <!-- =================================================
+         GIFT AREA
+    ================================================== -->
+
+    <div class="gift-area">
+
+        <!-- Arrow beside the box -->
+
+        <div class="box-arrow">
+
+            <span>Open me!</span>
+
+            <div class="arrow-line">
+                ➜
+            </div>
+
+        </div>
+
+
+        <!-- GIFT BOX -->
+
+        <button id="giftBox"
+                class="gift-box"
+                aria-label="Open birthday gift">
+
+            <div class="gift-lid">
+
+                <div class="lid-ribbon"></div>
+
+            </div>
+
+            <div class="gift-body">
+
+                <div class="box-ribbon-vertical"></div>
+                <div class="box-ribbon-horizontal"></div>
+
+                <!-- Teddy is visually inside the box -->
+
+                <div class="box-teddy">
+
+                    <div class="mini-ear mini-ear-left"></div>
+                    <div class="mini-ear mini-ear-right"></div>
+
+                    <div class="mini-head">
+
+                        <div class="mini-eye mini-eye-left"></div>
+                        <div class="mini-eye mini-eye-right"></div>
+
+                        <div class="mini-muzzle">
+                            <div class="mini-nose"></div>
+                            <div class="mini-mouth"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="mini-body"></div>
+
+                    <!-- Cake -->
+
+                    <div class="cake">
+
+                        <div class="candle candle-one">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="candle candle-two">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="candle candle-three">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="cake-top"></div>
+                        <div class="cake-middle"></div>
+                        <div class="cake-bottom"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </button>
+
+    </div>
+
+
+    <!-- =================================================
+         SMALL SURPRISE BUTTON
+    ================================================== -->
+
+    <button id="surpriseButton"
+            class="surprise-button">
+
+        <span>✨</span>
+        Click here
+        <span>✨</span>
+
+    </button>
+
+</section>
+
+
+<!-- =====================================================
+     SURPRISE OVERLAY
+===================================================== -->
+
+<section id="surpriseOverlay"
+         class="overlay surprise-overlay hidden">
+
+    <button class="close-button"
+            id="closeSurprise">
+        ×
+    </button>
+
+
+    <div class="surprise-container">
+
+        <h1>
+            A Few Little Memories Of Yours
+        </h1>
+
+        <p class="overlay-subtitle">
+            This is just for you cutie ❤️
+        </p>
+
+
+        <div class="photo-grid">
+
+            <div class="photo-card">
+                <img src="./surprise1.jpg" alt="Surprise">
+
+                <p>Devotee 🙏🏽</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="images/surprise2.jpg"
+                     alt="Surprise 2">
+
+                <p>Dating 🌸</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="images/surprise3.jpg"
+                     alt="Surprise 3">
+
+                <p>Wedding 💕</p>
+            </div>
+
+            <div class="photo-card">
+                <img src="images/surprise4.jpg"
+                     alt="Surprise 4">
+
+                <p>Travelling 🌟</p>
+            </div>
+
+        </div>
+
+
+        <div class="surprise-note">
+
+            <h2>A Little Message To You My "LADY"💌</h2>
+
+            <p>
+                Today is a day of reminder that a 
+                special person was came to this beautiful world.
+                May every new year of your life bring
+                beautiful moments, happiness and countless
+                reasons to smile❤️🫀.
+            </p>
+
+            <div class="heart-line">
+                ♥ ♥ ♥
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GIFT BOX OVERLAY
+===================================================== -->
+
+<section id="boxOverlay"
+         class="overlay box-overlay hidden">
+
+    <button class="close-button"
+            id="closeBox">
+        ×
+    </button>
+
+
+    <div class="box-container">
+
+        <h1>
+            Your Special Gift 🎁
+        </h1>
+
+        <p class="overlay-subtitle">
+            A little collection of memories ❤️
+        </p>
+
+
+        <div class="box-content">
+
+            <div class="box-photos">
+
+                <div class="box-photo-card">
+                    <img src="images/surprise5.jpg"
+                         alt="Surprise 5">
+                    <p>With fog 💖</p>
+                </div>
+
+                <div class="box-photo-card">
+                    <img src="images/surprise6.jpg"
+                         alt="Surprise 6">
+                    <p>Innocent 🌷</p>
+                </div>
+
+                <div class="box-photo-card">
+                    <img src="images/surprise7.jpg"
+                         alt="Surprise 7">
+                    <p>Photo mood ✨</p>
+                </div>
+
+                <div class="box-photo-card">
+                    <img src="images/surprise8.jpg"
+                         alt="Surprise 8">
+                    <p>Reel mood 💕</p>
+                </div>
+
+            </div>
+
+
+            <div class="box-message">
+
+                <h2>
+                    For You ❤️
+                </h2>
+
+                <p>
+                    Some moments are too beautiful to be
+                    kept in words. So here is a little box
+                    filled with memories, smiles and wishes.
+                </p>
+
+                <p>
+                    Keep smiling, keep shining and always
+                    remember how wonderful you are.
+                </p>
+
+                <div class="cake-message">
+                    🎂 🧸 🕯️
+                </div>
+
+                <p class="final-message">
+                    At Last Happiest Birthday To You জুন! ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     AUDIO
+===================================================== -->
+
+<audio id="birthdayMusic" controls>
+    <source src="./birthday.mp3" type="audio/mpeg">
+</audio> 
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
