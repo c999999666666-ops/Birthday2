@@ -105,9 +105,6 @@ surpriseButton.addEventListener("click", function() {
 
     surpriseOverlay.classList.remove("hidden");
 
-    const music = document.getElementById("birthdayMusic");
-    music.play();
-
 });
 
 /* =========================================================
@@ -133,8 +130,11 @@ closeSurprise.addEventListener("click", function() {
 ========================================================= */
 
 giftBox.addEventListener("click", function() {
+   
+   const music = document.getElementById("birthdayMusic");
+   music.play();
 
-    boxOverlay.classList.remove("hidden");
+   boxOverlay.classList.remove("hidden");
 
     /*
        IMPORTANT:
