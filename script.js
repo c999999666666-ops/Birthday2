@@ -105,8 +105,10 @@ surpriseButton.addEventListener("click", function() {
 
     surpriseOverlay.classList.remove("hidden");
 
-});
+    const music = document.getElementById("birthdayMusic");
+    music.play();
 
+});
 
 /* =========================================================
    CLOSE SURPRISE
